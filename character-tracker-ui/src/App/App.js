@@ -1,8 +1,15 @@
 import { hot } from 'react-hot-loader/root';
-import React from 'react';
+import React, {useState} from 'react';
+import Characters from '../Characters/Characters';
 
 const App = () => {
-  return <h1>My React App</h1>
+  const [ characters, addCharacter ] = useState([]);
+  return (
+    <main>
+      <h1>Character Tracker</h1>
+      <Characters characters={characters}/>
+    </main>
+  )
 }
 
 export default hot(App);
