@@ -1,4 +1,5 @@
 import React from 'react';
+import './Characters.css';
 import Character from '../Character/Character';
 
 const Characters = ({ characters }) => {
