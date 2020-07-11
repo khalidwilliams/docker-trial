@@ -1,0 +1,11 @@
+p {
+  display: inline;
+  margin: 2px;
+  border: 1px solid black;
+}
+
+article {
+  margin: 2em;
+  border: solid 1px black;
+
+}

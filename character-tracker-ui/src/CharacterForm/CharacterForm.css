@@ -1,0 +1,9 @@
+form {
+  border: 1px black solid;
+  padding: 1em;
+  width: 50%;
+}
+
+label, input {
+  display: block;
+}
